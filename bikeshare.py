@@ -382,6 +382,7 @@ def main():
         city, month, day = get_filters()
 
         df = load_data(city, month, day)
+        # Print five rows of data
         i=0
         while True:
              data = input('\nWould you like to restart? Enter yes or no.\n')
