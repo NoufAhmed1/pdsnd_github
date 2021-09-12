@@ -12,7 +12,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
               'washington': 'washington.csv' }
 
-
+# Take Input from users 
 
 def get_filters():
 
@@ -53,6 +53,7 @@ def get_filters():
         print('Not Valid')
 
     # TO DO: get user input for month (all, january, february, ... , june)  
+
 
     while True:
 
